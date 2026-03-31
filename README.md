@@ -8,7 +8,7 @@ Dataset yang digunakan berisi informasi terkait kondisi cuaca, musim, hari kerja
 
 ---
 
-## 🎯 Pertanyaan 
+## 🎯 Pertanyaan Bisnis
 
 1. Bagaimana pengaruh kondisi cuaca terhadap jumlah penyewaan sepeda?
 2. Apakah terdapat perbedaan jumlah penyewaan sepeda antara hari kerja dan hari libur?
@@ -26,7 +26,7 @@ Tahap ini dilakukan untuk mempersiapkan data sebelum dianalisis. Kegiatan yang d
 * Mengidentifikasi missing value
 * Melakukan transformasi tipe data
 
-Hasil:
+**Hasil:**
 Data dalam kondisi bersih dan siap digunakan untuk analisis lebih lanjut.
 
 ---
@@ -35,13 +35,13 @@ Data dalam kondisi bersih dan siap digunakan untuk analisis lebih lanjut.
 
 Tahap ini bertujuan untuk memahami pola dan karakteristik data.
 
-Analisis yang dilakukan:
+**Analisis yang dilakukan:**
 
 * Menghitung rata-rata jumlah penyewaan berdasarkan kondisi cuaca
 * Membandingkan jumlah penyewaan antara hari kerja dan hari libur
 
-Hasil:
-Ditemukan bahwa beberapa faktor seperti cuaca dan hari kerja memiliki pengaruh terhadap jumlah penyewaan sepeda.
+**Hasil:**
+Ditemukan bahwa faktor seperti cuaca dan hari kerja memiliki pengaruh terhadap jumlah penyewaan sepeda.
 
 ---
 
@@ -49,13 +49,13 @@ Ditemukan bahwa beberapa faktor seperti cuaca dan hari kerja memiliki pengaruh t
 
 Visualisasi digunakan untuk memperjelas hasil analisis.
 
-Visualisasi yang dibuat:
+**Visualisasi yang dibuat:**
 
 * Grafik pengaruh cuaca terhadap penyewaan sepeda
 * Grafik perbandingan hari kerja dan hari libur
 
-Hasil:
-Grafik menunjukkan bahwa cuaca cerah meningkatkan jumlah penyewaan, sedangkan cuaca buruk menurunkannya.
+**Hasil:**
+Cuaca cerah meningkatkan jumlah penyewaan, sedangkan cuaca buruk menurunkannya.
 
 ---
 
@@ -67,10 +67,10 @@ Dilakukan pengelompokan jumlah penyewaan menjadi kategori:
 * Sedang
 * Tinggi
 
-Tujuan:
-Untuk mengetahui distribusi penggunaan sepeda secara lebih terstruktur.
+**Tujuan:**
+Mengetahui distribusi penggunaan sepeda secara lebih terstruktur.
 
-Hasil:
+**Hasil:**
 Sebagian besar data berada pada kategori sedang, menunjukkan penggunaan sepeda yang relatif stabil.
 
 ---
@@ -98,12 +98,14 @@ Terdapat perbedaan pola penyewaan antara hari kerja dan hari libur. Hari kerja c
 
 ## 💻 Cara Menjalankan Dashboard
 
- Buka browser:
-    https://bike-sharing-dashboard-hjopvpsdu4p6ra6fzrm25r.streamlit.app/
+Buka link berikut di browser:
+https://bike-sharing-dashboard-hjopvpsdu4p6ra6fzrm25r.streamlit.app/
+
 ---
 
 ## 📁 Struktur Folder
 
+```
 submission/
 │
 ├── dashboard/
@@ -120,12 +122,11 @@ submission/
 ├── README.md
 ├── requirements.txt
 └── url.txt
+```
 
 ---
 
 ## 👤 Author
 
-Nama: (Hilya Mardhya)
-Email: (hmardhya@gmail.com)
-
-# Bike-Sharing-Dashboard
+Nama: Hilya Mardhya
+Email: [hmardhya@gmail.com](mailto:hmardhya@gmail.com)
